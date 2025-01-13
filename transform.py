@@ -1,6 +1,6 @@
 import os
 import numpy as np
-import open3d as o3d
+# import open3d as o3d
 import shutil
 
 def read_last_pose_from_map(map_dir):
