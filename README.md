@@ -18,7 +18,7 @@ output_dir = "path/to/merged/map"            # Output directory for merged map
 ```
 
 ## 3. Visualize using interactive_slam
-Finally you can open the file you saved from interactive_slam, run the following command:
+Finally you can open the file you saved from the python code, run the following command:
 ```bash
 rosrun interactive_slam odometry2graph
 ```
