@@ -17,3 +17,9 @@ map2_dir = "path/to/second/corrected_map"    # Directory with timestamp.pcd/.odo
 output_dir = "path/to/merged/map"            # Output directory for merged map
 ```
 
+## 3. Visualize using interactive_slam
+Finally you can open the file you saved from interactive_slam, run the following command:
+```bash
+rosrun interactive_slam odometry2graph
+```
+Open the file you just merged, and you can do further adjustment.
