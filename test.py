@@ -30,7 +30,7 @@ def visualize_two_pcds(pcd1_path, pcd2_path):
     # Visualize
     o3d.visualization.draw_geometries([pcd1, pcd2])
 
-# 使用示例：
+# Using some examples：
 pcd1_path = "/home/lee/Desktop/Code_For_Data_Processing/part_1_interactiveslam/000000/cloud.pcd"
 pcd2_path = "/home/lee/Desktop/Code_For_Data_Processing/odom1+2/1729784198_373063564.pcd"
 # pcd2_path = "/home/lee/Desktop/Code_For_Data_Processing/odom2/1729784198_373063564.pcd"
