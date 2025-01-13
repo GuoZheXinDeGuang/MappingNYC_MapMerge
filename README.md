@@ -9,7 +9,7 @@ output_dir = "path/to/output/odom_saver_format"       # Will contain timestamp.p
 ```
 
 ## 2. Transform and Merge
-Then, we use `transform.py`:
+Make sure you have converted 2 maps. Then, we use `transform.py`:
 
 ```python
 map1_dir = "path/to/first/corrected_map"     # Directory with timestamp.pcd/.odom files
