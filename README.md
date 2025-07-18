@@ -22,4 +22,4 @@ Finally you can open the file you saved from the python code, run the following 
 ```bash
 rosrun interactive_slam odometry2graph
 ```
-Open the file you just merged, and you can do further adjustment.
+Open the file you just merged, and you can do further adjustment using InteractiveSlam.
